@@ -4,14 +4,14 @@
     "theme_color": "green",
     "icons": [
         {
-            "src": "./img/download.jpeg",
+            "src": "./img/icons/appIcon.png",
             "sizes": "192x192",
-            "type": "image/jpeg"
+            "type": "image/png"
         },
         {
-            "src": "./img/icons/download.jpeg",
+            "src": "./img/icons/appIcon.png",
             "sizes": "512x512",
-            "type": "image/jpeg"
+            "type": "image/png"
         }
     ],
     "start_url": ".",
