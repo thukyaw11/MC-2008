@@ -15,20 +15,18 @@
 <style>
 .navbar {
   overflow: hidden;
-  background-color: green;
+  background-color: #F7D336;
   position: fixed;
   top: 0;
   height: 60px;
   width: 100%;
 }
 #heading{
-  color: white;
-  font-weight: bold;
+  color: black;
 }
 #martikar{
-  font-weight: bold;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .second-navbar{
   width: 100%;
@@ -44,6 +42,15 @@
   padding: 14px 16px;
   font-size: 20px;
 }
+#flag-img{
+  width: 100px;
+  height: 40px;
+  margin-top: 300px;
+}
+#startBtn{
+  margin-top: 200px;
+  background-color: #F7D336;
 
+}
   
 </style>

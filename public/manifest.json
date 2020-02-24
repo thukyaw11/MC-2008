@@ -1,7 +1,7 @@
 {
     "name": "Myanmar Constitution 2008",
     "short_name": "Myanmar Constitution",
-    "theme_color": "green",
+    "theme_color": "#F7D336",
     "icons": [
         {
             "src": "./img/icons/appIcon.png",

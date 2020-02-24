@@ -1,10 +1,12 @@
 <template>
-      <div class="col-12 text-center mt-4">
-
+      <div class="col-12 text-center pt-4">
+          <h5>ရပ်ကွက် သို့မဟုတ် ကျေးရွာအုပ်စု အုပ်ချုပ်ရေးဥပဒေ</h5>
       <router-link to="/home">
-          <h1>The Law of Faith</h1>
-          <a-button type="primary" id="startBtn">Get Started</a-button>    
+          <a-button id="startBtn">စဖတ်ရန်</a-button>    
       </router-link>
+      <br>
+
+      <img src="../assets/flag.jpg" alt="open myanmar initiative" id="flag-img">
   </div>
 </template>
 
