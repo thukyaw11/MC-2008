@@ -15,7 +15,7 @@
 <style>
 .navbar {
   overflow: hidden;
-  background-color: #F7D336;
+  background-color: #C5342D;
   position: fixed;
   top: 0;
   height: 60px;
@@ -35,7 +35,9 @@
   position: fixed;
   top: 60px;
 }
-
+.navbar #heading{
+  color: white;
+}
 .navbar p {
   color: #f2f2f2;
   margin: 0 auto;
@@ -43,14 +45,17 @@
   font-size: 20px;
 }
 #flag-img{
-  width: 100px;
-  height: 40px;
+  width: 180px;
+  height: 80px;
   margin-top: 300px;
 }
 #startBtn{
   margin-top: 200px;
-  background-color: #F7D336;
-
+  background-color: #C5342D;
+  color: white;
+  height: 45px;
+  font-size: 20px;
+  width: 150px;
 }
   
 </style>

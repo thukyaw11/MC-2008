@@ -1,18 +1,6 @@
 <template>
     <div class="home">
         <NavBar/>
-        <!-- <ul id="itemsContainer">
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-            <li>Room 1</li>
-        </ul> -->
         <div id="itemsContainer">
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
@@ -24,12 +12,12 @@
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
-                        <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
-                        <div class="nav_item">Room1</div>
+            <div class="nav_item">Room1</div>
+            <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
             <div class="nav_item">Room1</div>
