@@ -28,13 +28,7 @@
   text-align: center;
   margin-top: 15px;
 }
-.second-navbar{
-  width: 100%;
-  background-color: white;
-  height: 60px;
-  position: fixed;
-  top: 60px;
-}
+
 .navbar #heading{
   color: white;
 }

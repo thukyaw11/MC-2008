@@ -1,39 +1,50 @@
 <template>
     <div class="home">
-        <NavBar/>
-        <div id="itemsContainer">
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-            <div class="nav_item">Room1</div>
-
+        <NavBar title="အုပ်ချုပ်ရေးဥပဒေ"/>
+        <SecondNavBar/>
+        <div id="itemsContainer" >
+            <div v-for="data in datas" v-bind:key="data.id">
+            <router-link :to="`/SingleView/${data.id}`">
+                <div class="nav_item">{{data.title}}</div>
+                <hr>
+            </router-link>
+            </div>
         </div>
-        </div>
+    </div> 
 </template>
+<style>
+    .nav_item{
+        padding: 15px 10px;
+        margin: 0;
+    }
+    hr{
+        margin: 0;
+        padding: 0;
+    }
+</style>
 
 <script>
+/* eslint-disable no-console */
+
+import { Data } from "../content/data";
 import NavBar from "../components/NavBar";
+import SecondNavBar from "../components/SecondNavBar";
 export default {
     components : {
-        NavBar
+        NavBar,
+        SecondNavBar
+    },
+    data() {
+        return {
+            datas : Data
+        }
+    },
+    mounted() {
+        console.log("hello");
     }
 }
+/* eslint-enable no-console */
+
 </script>
 
 <style>
@@ -42,8 +53,6 @@ export default {
         height: 826px;
     
     }
-    .nav_item{
-        padding: 10px;
-    }
+
 
 </style>

@@ -11,7 +11,11 @@
 </template>
 
 <script>
+/* eslint-disable no-console */
+
 export default {
   name : 'Welcome',
 }
+
+/* eslint-enable no-console */
 </script>
