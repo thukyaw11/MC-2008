@@ -1,9 +1,10 @@
 <template>
 <div class="singleView">
     <NavBar :title="singleView.title" />
-    <p id="content">
-      <VueMarkDown html>{{singleView.content}}</VueMarkDown>
-    </p>
+    <div id="content">
+      <vue-mark-down>{{singleView.content}}</vue-mark-down>
+    </div>
+
 </div>
 </template>
 
@@ -35,9 +36,11 @@ export default {
         };
     },
     props: ["id"],
-    mounted() {
+    created(){
         this.data = Data;
         this.singleView = this.data[this.$props.id];
+
+        console.log(this.singleView.content);
 
     }
 };
