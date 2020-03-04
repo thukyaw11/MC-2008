@@ -10,8 +10,10 @@
 
 <style>
 #content {
+    height: auto;
     margin-top: 70px;
     padding: 10px;
+    font-size: 19px;
 }
 </style>
 
