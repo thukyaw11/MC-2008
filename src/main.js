@@ -5,10 +5,16 @@ import router from "./router";
 import Button from 'ant-design-vue/lib/button'; // for js
 import 'ant-design-vue/dist/antd.css';
 import VueMarkDown from "vue-markdown";
+import { MdButton, MdContent, MdTabs } from 'vue-material/dist/components'
+import 'vue-material/dist/vue-material.min.css'
+import 'vue-material/dist/theme/default.css'
 
 
 Vue.config.productionTip = false;
 Vue.use(Button);
+Vue.use(MdButton)
+Vue.use(MdContent)
+Vue.use(MdTabs)
 Vue.use(VueMarkDown);
 new Vue({
   router,

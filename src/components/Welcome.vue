@@ -1,8 +1,8 @@
 <template>
       <div class="col-12 text-center pt-4">
           <h5>ရပ်ကွက် သို့မဟုတ် ကျေးရွာအုပ်စု အုပ်ချုပ်ရေးဥပဒေ</h5>
-      <router-link to="/home">
-          <a-button id="startBtn">စဖတ်ရန်</a-button>    
+      <router-link to="/home">    
+           <md-button class="md-raised md-accent" id="startBtn">စဖတ်ရန်</md-button>
       </router-link>
       <br>
 
