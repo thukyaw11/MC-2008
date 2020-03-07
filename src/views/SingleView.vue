@@ -9,11 +9,15 @@
 </template>
 
 <style>
+h5{
+    line-height: 30px;
+}
 #content {
     height: auto;
     margin-top: 70px;
     padding: 10px;
-    font-size: 19px;
+    font-size: 15px;
+    line-height: 25px;
 }
 </style>
 
