@@ -8,9 +8,10 @@ import VueMarkDown from "vue-markdown";
 import { MdButton, MdContent, MdTabs } from 'vue-material/dist/components'
 import 'vue-material/dist/vue-material.min.css'
 import 'vue-material/dist/theme/default.css'
-
+import MaterialDesignTransition from 'vue-router-md-transition';
 
 Vue.config.productionTip = false;
+Vue.use(MaterialDesignTransition);
 Vue.use(Button);
 Vue.use(MdButton)
 Vue.use(MdContent)

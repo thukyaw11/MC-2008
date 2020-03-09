@@ -1,35 +1,40 @@
 <template>
   <div id="app container">
-
-
     <router-link to="/"></router-link>
-    <router-view></router-view>
 
+    <md-transition :reverse="true">
+      <router-view></router-view>
+    </md-transition>
   </div>
-  
-  
 </template>
-
+<script>
+import MaterialDesignTransition from "vue-router-md-transition";
+export default {
+    components: {
+    'md-transition': MaterialDesignTransition,
+  },
+};
+</script>
 
 
 <style>
 .navbar {
   overflow: hidden;
-  background-color: #C5342D;
+  background-color: #c5342d;
   position: fixed;
   top: 0;
   height: 60px;
   width: 100%;
 }
-#heading{
+#heading {
   color: black;
 }
-#martikar{
+#martikar {
   text-align: center;
   margin-top: 15px;
 }
 
-.navbar #heading{
+.navbar #heading {
   color: white;
 }
 .navbar p {
@@ -38,18 +43,17 @@
   padding: 14px 16px;
   font-size: 20px;
 }
-#flag-img{
+#flag-img {
   width: 180px;
   height: 80px;
-  margin-top: 300px;
+  margin-top: 150px;
 }
-#startBtn{
-  margin-top: 200px;
-  background-color: #C5342D;
+#startBtn {
+  margin-top: 150px;
+  background-color: #c5342d;
   color: white;
   height: 45px;
   font-size: 20px;
   width: 150px;
 }
-  
 </style>
