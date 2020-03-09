@@ -18,6 +18,9 @@ export default {
 
 
 <style>
+body{
+  overscroll-behavior: contain;
+}
 .navbar {
   overflow: hidden;
   background-color: #c5342d;
